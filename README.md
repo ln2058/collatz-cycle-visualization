@@ -4,19 +4,24 @@
 The aim of this project is to enable visualizations of any cycle similar to collatz to maybe establish a new perspective on the original collatz sequence.
 
 
-## Example graphs for original 3n+1 problem
+## Example graphs for difference rules
+### Rule1: Original 3n+1
 <img src="/graphs/rule_1_iterations.png" width="400"/> <img src="/graphs/rule_1_max.png" width="400"/> 
 
-## Example graphs for 3n-1 problem
-<img src="/graphs/rule_2_iterations.png" width="400"/> <img src="/graphs/rule_2_max.png" width="400"/> 
+### Rule 2: 3n+1 extended to negative numbers
+<img src="/graphs/rule_1_iterations_neg.png" width="400"/> <img src="/graphs/rule_1_max_neg.png" width="400"/> 
 
-## Example graphs for even: 3n+1, odd: (0.5n)+0.5
+
+### Rule 3: Even: 3n+1, odd: (0.5*n)+0.5
 <img src="/graphs/rule_3_iterations.png" width="400"/> <img src="/graphs/rule_3_max.png" width="400"/> 
 
-## Example graphs for even: 2n+1, odd: (0.5n)+0.5
+### Rule 4: Even: 2n+1, odd: (0.5*n)+0.5
 <img src="/graphs/rule_4_iterations.png" width="400"/> <img src="/graphs/rule_4_max.png" width="400"/> 
 
-### Further improvements to make
+### Rule 5: Even: -n/2 odd: -3*n+1
+<img src="/graphs/rule_5_iterations.png" width="400"/> <img src="/graphs/rule_5_max.png" width="400"/> 
+
+#### Further improvements to make
 * Add a way of detecting when a number approaches infinity
 * Extend program to negative numbers
 * Make an algorithm to find many collatz like sequences
