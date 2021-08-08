@@ -24,6 +24,9 @@ The aim of this project is to enable visualizations of any cycle similar to coll
 ### Rule 5: Even: -n/2 odd: -3*n+1
 <img src="/graphs/rule_5_iterations.png" width="400"/> <img src="/graphs/rule_5_max.png" width="400"/> 
 
+### Rule 5: Even: n/2 odd: -3*n+1
+<img src="/graphs/rule_6_iterations.png" width="400"/> <img src="/graphs/rule_6_max.png" width="400"/> 
+
 #### Further improvements to make
 * Add a way of detecting when a number approaches infinity
 * ~~Extend program to negative numbers
