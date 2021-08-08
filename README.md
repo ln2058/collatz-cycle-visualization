@@ -3,6 +3,9 @@
 
 The aim of this project is to enable visualizations of any cycle similar to collatz to maybe establish a new perspective on the original collatz sequence.
 
+**Input: rules for_even_ & _odd_ and _minimum_ & _lower_ bound.**          
+*( make sure that the sequence does not go to infinity )
+
 
 ## Example graphs for difference rules
 ### Rule1: Original 3n+1
@@ -23,7 +26,7 @@ The aim of this project is to enable visualizations of any cycle similar to coll
 
 #### Further improvements to make
 * Add a way of detecting when a number approaches infinity
-* Extend program to negative numbers
+* ~~Extend program to negative numbers
 * Make an algorithm to find many collatz like sequences
 
 
