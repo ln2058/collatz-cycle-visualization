@@ -29,6 +29,7 @@ The aim of this project is to enable visualizations of any cycle similar to coll
 
 #### Further improvements to make
 * Add a way of detecting when a number approaches infinity
+* Thinking about extending the program to more domains and operations
 * ~~Extend program to negative numbers
 * Make an algorithm to find many collatz like sequences
 
