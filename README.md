@@ -30,6 +30,7 @@ The aim of this project is to enable visualizations of any cycle similar to coll
 #### Further improvements to make
 * Add a method for detecting if an sequence goes to infinity so that the program can stop
 * Extending the program to more domains and operations
+          - For example: rational, complex numbers and using more than 2 mod statements
 * ~~Extend program to negative numbers~~
 * Make an algorithm to find many collatz like sequences
 
