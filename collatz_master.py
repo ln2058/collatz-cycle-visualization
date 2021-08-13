@@ -22,7 +22,7 @@ def collatz_master():
         tracker = [n]
         i += 1
         while True:
-            if (n % 2) == 0:    # even
+            if (n % 2) == 0:             # even
                 n = int(eval(rule_even))
                 if n in tracker:
                     result[i, 0] = tracker[0]   # counts as initial number
@@ -40,7 +40,7 @@ def collatz_master():
                     break
                 else:
                     tracker.append(n)
-            else:     # off
+            else:                         # odd
                 n = int(eval(rule_odd))
                 if n in tracker:
                     result[i, 0] = tracker[0]
@@ -65,16 +65,18 @@ def collatz_master():
     iterations = np.array(result[:, 1])
     max_num = np.array(result[:, 2])
 
-
+    # Plot Figure 1
     f = plt.figure(1)
     plt.title("Number of iterations")
     plt.plot(num, iterations, 'ro', ms=0.5, color='blue')
     f.show()
-
+    
+    # Plot figure 2
     g = plt.figure(2)
     plt.title("Max value reached in cycle")
     plt.plot(num, max_num, 'ro', ms=0.5, color='blue')
 
+    
     max_num.sort()
     min_bound = float((max_num[0])/300)
     max_bound = float((max_num[-1])/300)
